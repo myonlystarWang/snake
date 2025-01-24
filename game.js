@@ -33,10 +33,10 @@ document.addEventListener('keydown', changeDirection);
 
 // 处理键盘输入，改变蛇的移动方向
 function changeDirection(event) {
-    const LEFT_KEY = 37;
-    const RIGHT_KEY = 39;
-    const UP_KEY = 38;
-    const DOWN_KEY = 40;
+    const LEFT_KEY = 65;  // A键
+    const RIGHT_KEY = 68; // D键
+    const UP_KEY = 87;    // W键
+    const DOWN_KEY = 83;  // S键
 
     const keyPressed = event.keyCode;
     const goingUp = dy === -1;
